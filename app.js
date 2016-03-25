@@ -5,7 +5,12 @@ app.controller('myController', function(){
   this.person = person;
 
   this.eatSnack = function (){
-    this.person.weight+= 2;
+    this.person.weight += 2;
   };
-  
+
+  this.walk = function (){
+    this.person.weight -= 5;
+  };
+
+
 });
