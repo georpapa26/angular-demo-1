@@ -3,4 +3,9 @@ var app = angular.module('myApplication', []);
 
 app.controller('myController', function(){
   this.person = person;
+
+  this.eatSnack = function (){
+    this.person.weight+= 2;
+  };
+  
 });
